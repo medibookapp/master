@@ -196,6 +196,31 @@
           }
         }
       }
+    },
+    "dto": {
+      "projectType": "library",
+      "root": "libs/dto",
+      "sourceRoot": "libs/dto/src",
+      "prefix": "medibook",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/dto/src/**/*.ts",
+              "libs/dto/src/**/*.html"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/dto"],
+          "options": {
+            "jestConfig": "libs/dto/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   }
 }
