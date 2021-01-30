@@ -17,6 +17,7 @@
   },
   "projects": {
     "medibook": { "tags": [] },
-    "medibook-e2e": { "tags": [], "implicitDependencies": ["medibook"] }
+    "medibook-e2e": { "tags": [], "implicitDependencies": ["medibook"] },
+    "medibook-server": { "tags": [] }
   }
 }
