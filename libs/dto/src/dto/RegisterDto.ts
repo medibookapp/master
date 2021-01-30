@@ -1,5 +1,3 @@
-import { __exportStar } from "tslib";
-
 export class RegisterRqDto {
     email: string;
     email2?: string;

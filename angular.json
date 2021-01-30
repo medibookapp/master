@@ -91,7 +91,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "medibook:build"
+            "browserTarget": "medibook:build",
+            "proxyConfig": "apps/medibook/src/proxy.conf.json"
           },
           "configurations": {
             "production": {
