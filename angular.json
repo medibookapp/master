@@ -51,7 +51,11 @@
               "apps/medibook/src/favicon.ico",
               "apps/medibook/src/assets"
             ],
-            "styles": ["apps/medibook/src/styles.scss"],
+            "styles": ["apps/medibook/src/styles.scss",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/saga-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css"
+            ],
             "scripts": []
           },
           "configurations": {
